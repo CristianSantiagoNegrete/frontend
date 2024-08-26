@@ -1,0 +1,39 @@
+.historia p {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.personas p {
+    color: #666;
+    font-size: 12px;
+}
+
+.personas h5, h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.personas, h6 {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.persona1,
+.persona2 {
+    border: 1px solid #ccc;
+    width: 18%;
+    text-align: left;
+    padding: 13px;
+}
+
+.persona1,
+.persona2, img {
+    width: 250px;
+}
